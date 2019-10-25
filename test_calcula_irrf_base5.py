@@ -1,5 +1,3 @@
-from calcula_irrf_base5 import Calcula_IRFF_Base5
-
 def teste_calcula_irrf_base5():
-    valor_liquido = Calcula_IRFF_Base5(5000, 27.5)
-    assert valor_liquido.calcular() == 3625.00
+    valor_liquido = Calculate_IRRF(5000)
+    assert valor_liquido.calculate() == 851.40
