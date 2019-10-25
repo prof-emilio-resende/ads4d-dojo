@@ -10,4 +10,5 @@ class Calculate_IRRF:
             return round(discount_IRRF, 2)
         elif self.salarioBase >= 3751.06 and self.salarioBase <= 4464.68:
             return round((self.salarioBase - 1903.98) * 0.225, 2)
+
         return self.salarioBase
