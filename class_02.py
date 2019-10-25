@@ -8,4 +8,7 @@ class Calculate_IRRF:
             discount_INSS = self.salarioBase * 0.11
             discount_IRRF = (self.salarioBase - discount_INSS - 1903.99) * 0.075
             return round(discount_IRRF, 2)
+        elif self.salarioBase >= 3751.06 and self.salarioBase <= 4464.68:
+            return round((self.salarioBase - 1903.98) * 0.225, 2)
+
         return self.salarioBase
