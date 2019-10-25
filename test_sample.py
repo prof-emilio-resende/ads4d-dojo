@@ -1,10 +1,4 @@
-#from Calcula_Dependentes import Calcula_Dependentes
-
-def test_sample():
-  assert True
-
-def test_yay():
-  assert True
+from dependentes import Calcula_Dependentes
 
 def test_dependentes():
   calcula_dep = Calcula_Dependentes()
