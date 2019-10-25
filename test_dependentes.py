@@ -1,6 +1,9 @@
 from dependentes import Calcula_Dependentes
 
 def test_dependentes():
-    obj_dependente = Calcula_Dependentes()
-    valor_dependentes =  obj_dependente.realiza_calculo(2)
-    assert valor_dependentes == 379.18
+    dependentes = Calcula_Dependentes()
+    assert dependentes.realiza_calculo(3) == 568.77
+
+def test_dependentes():
+    dependentes = Calcula_Dependentes()
+    assert dependentes.realiza_calculo(2) == 379.18
